@@ -8,8 +8,8 @@ const navItem = ({ isActive }) => {
 function Navigation() {
   return (
     <nav className={css.navigation}>
-      <NavLink to="/" className={navItem}>
-        Home
+      <NavLink to="/"  className={css.logo}>
+      Almaxi<span >Consulting</span>
       </NavLink>
       <NavLink to="/products" className={navItem}>
         Products
@@ -17,6 +17,9 @@ function Navigation() {
       <NavLink to="/team" className={navItem}>
         Team
       </NavLink>
+      <NavLink to="/benefits" className={navItem}>
+        Benefits
+      </NavLink>     
       <NavLink to="/faq" className={navItem}>
         FAQ
       </NavLink>
