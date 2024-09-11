@@ -1,4 +1,5 @@
 import BenefitsList from "../../components/BenefitsList/BenefitsList";
+import {PgTitle} from "../../components/PgTitle/PgTitle";
 import benefits from "../../db/benefits.json";
 
 import css from "./BenefitsPage.module.css";
@@ -6,13 +7,7 @@ import css from "./BenefitsPage.module.css";
 function BenefitsPage() {
   return (
     <div className={css.benefitsPage}>
-      <h2>
-        <span>Benefits</span> of
-        <br />
-        working with
-        <br />
-        us
-      </h2>
+      <PgTitle />
       <BenefitsList benefits={benefits} />
     </div>
   );

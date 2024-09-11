@@ -1,0 +1,28 @@
+.pgTitle {
+    width: 100%;
+    font-family: Impact, "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    /* border: 1mm solid violet; */
+  }
+
+  .pgTitle span {
+    color: #4d5ae5;
+  }
+  
+
+  @media (min-width: 768px) {
+    .pgTitle {
+      font-size: 108px;
+      line-height: 1.15;
+      letter-spacing: 0.02em;
+    }
+  }
+  
+  
