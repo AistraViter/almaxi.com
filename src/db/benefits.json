@@ -1,0 +1,29 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "title": "Expertise",
+    "description": 
+    "We provide proven practices, effective accounting schemes, and continuous monitoring of legal changes.",
+    "id": 1812
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "title": "Communication",
+    "description": 
+    "Your accountants are always available to you from Monday to Friday, 10:00 AM to 6:00 PM, in your Telegram, Viber, or WhatsApp chat.",
+    "id": 1137
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    "title": "Responsibility",
+    "description": 
+    "Our duties and responsibilities are clearly outlined in the Agreement, and your confidential information will remain secure.",
+    "id": 1213
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
+    "title": "Comfort",
+    "description": "By outsourcing routine paperwork to our accountants, you receive daily support and consultations on a wide range of taxation and business matters.",
+    "id": 1714
+  }
+]
