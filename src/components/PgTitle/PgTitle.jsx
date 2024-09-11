@@ -1,6 +1,6 @@
 import css from "./PgTitle.module.css";
 
-export const PgTitle = () => {
+export const BenefitsTitle = () => {
   return (
     <h2 className={css.pgTitle}>
       <span>Benefits</span> of
@@ -8,6 +8,15 @@ export const PgTitle = () => {
       working with
       <br />
       us
+    </h2>
+  );
+};
+
+export const FaqTitle = () => {
+  return (
+    <h2 className={css.pgTitle}>
+      Frequently <br />
+      Asked <span>Questions</span>
     </h2>
   );
 };

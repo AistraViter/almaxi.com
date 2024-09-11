@@ -10,6 +10,7 @@ import css from "./App.module.css";
 const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
 const BenefitsPage = lazy(() => import("../pages/BenefitsPage/BenefitsPage"));
 const ContactsPage = lazy(() => import("../pages/ContactsPage/ContactsPage"));
+const FaqPage = lazy(() => import("../pages/FaqPage/FaqPage"));
 const NotFoundPage = lazy(() => import("../pages/NotFoundPage/NotFoundPage"));
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/benefits" element={<BenefitsPage />} />
+          <Route path="/faq" element={<FaqPage />} />
           <Route path="/contacts" element={<ContactsPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
