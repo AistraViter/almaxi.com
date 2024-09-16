@@ -9,6 +9,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "keywords": [],
+  "author": "Iryna_Pidkhlibna",
+  "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.3.1",

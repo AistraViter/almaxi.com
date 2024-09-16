@@ -1,5 +1,5 @@
 .benefitsList {
-  /* border: 1mm solid violet; */
+  border: 1mm solid violet;
   margin: 40px auto;
   min-width: 280px;
   max-width: 320px;
@@ -19,6 +19,7 @@
 
 @media (min-width: 768px) {
   .benefitsList {
+    min-width: 704px;
     max-width: 768px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,7 +50,7 @@
 
 @media (min-width: 1280px) {
   .benefitsList {
-    max-width: 1280px;
+    max-width: 1216px;
     margin-top: -188px;
   }
 

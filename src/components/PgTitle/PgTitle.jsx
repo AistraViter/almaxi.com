@@ -1,4 +1,20 @@
-import css from "./PgTitle.module.css";
+import css from './PgTitle.module.css';
+
+export const ServicesTitle = () => {
+  return (
+    <h2 className={css.pgTitle}>
+      Our <span>services</span>
+    </h2>
+  );
+};
+
+export const TeamTitle = () => {
+  return (
+    <h2 className={css.pgTitle}>
+      Our <span>team</span>
+    </h2>
+  );
+};
 
 export const BenefitsTitle = () => {
   return (
@@ -17,6 +33,24 @@ export const FaqTitle = () => {
     <h2 className={css.pgTitle}>
       Frequently <br />
       Asked <span>Questions</span>
+    </h2>
+  );
+};
+
+export const ReviewsTitle = () => {
+  return (
+    <h2 className={css.pgTitle}>
+      Reviews
+    </h2>
+  );
+};
+
+export const ContactsTitle = () => {
+  return (
+    <h2 className={css.pgTitle}>
+      Let`s <span>work</span>
+      <br />
+      <span>together</span>
     </h2>
   );
 };

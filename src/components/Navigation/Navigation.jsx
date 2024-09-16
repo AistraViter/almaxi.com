@@ -1,12 +1,15 @@
-import { NavLink } from "react-router-dom";
-import clsx from "clsx";
-import css from "./Navigation.module.css";
+import { NavLink } from 'react-router-dom';
+import clsx from 'clsx';
+// import styles from "../PgContainer/PgContainer.module.css";
+import css from './Navigation.module.css';
 const navItem = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
 };
 
 function Navigation() {
   return (
+    <div className={css.barContainer}>
+
     <nav className={css.navigation}>
       <div>
         <NavLink to="/" className={css.logo}>
@@ -15,8 +18,8 @@ function Navigation() {
       </div>
 
       <div className={css.navigationBar}>
-        <NavLink to="/products" className={navItem}>
-          Products
+        <NavLink to="/services" className={navItem}>
+          Services
         </NavLink>
         <NavLink to="/team" className={navItem}>
           Team
@@ -35,6 +38,8 @@ function Navigation() {
         </NavLink>
       </div>
     </nav>
+    </div>
+
   );
 }
 

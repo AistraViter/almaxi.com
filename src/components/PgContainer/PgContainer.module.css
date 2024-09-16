@@ -1,0 +1,21 @@
+.pgContainer {
+    min-width: 320px;
+    max-width: 360px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1mm solid blue;
+  }
+  
+  @media (min-width: 768px) {
+    .pgContainer {
+      min-width: 704px;
+      max-width: 768px;
+      padding: 72px 32px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .pgContainer {
+      max-width: 1280px;
+    }
+  }
+  
